@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "node-sass": "^4.9.0"
+    },
+    "scripts": {
+        "build-css": "node-sass sass/main.scss css/main.css --include-path scss -w"
+      }
+}
+
